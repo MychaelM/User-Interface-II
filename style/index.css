@@ -94,4 +94,32 @@ nav a {
 
 div.middle {
     background-color: #393e46;
+    padding: 10px;
+}
+
+#about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-txt {
+    font-size: 1rem;
+    color: aliceblue;
+    margin: 25px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* height: 400px; */
+    width:  80%;
+}
+
+.about-txt button {
+    width: 100px;
+    background-color: aliceblue;
+    border: 1px solid #222831;
+    color: #222831;
+    font-size: 0.8rem;
+    margin: 10px 0;
+    padding: 5px 10px;
 }
