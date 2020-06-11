@@ -47,6 +47,37 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 62.5%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+header {
+    background-color: #32e0c4;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+nav {
+    display: flex;
+    padding-left: 75px;
+}
+
+nav a {
+    background-color: #222831;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 0;
+    text-decoration: none;
 }
