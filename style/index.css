@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@400;700&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -52,10 +54,12 @@ table {
 }
 
 body {
+    font-family: 'Roboto Mono', monospace;
     font-size: 62.5%;
 }
 
 h1 {
+    font-family: 'Lobster', cursive;
     font-size: 2rem;
     margin-left: 50px;
 }
@@ -74,10 +78,20 @@ nav {
 }
 
 nav a {
-    background-color: #222831;
-    color: aliceblue;
+    background-color: aliceblue;
+    border: 1px solid #222831;
+    color: #222831;
     font-size: 1rem;
-    padding: 5px;
+    padding: 5px 10px;
     margin: 0;
     text-decoration: none;
+}
+
+#current-page {
+    background-color: #222831;
+    color: aliceblue;  
+}
+
+div.middle {
+    background-color: #393e46;
 }
