@@ -132,3 +132,15 @@ div.middle {
     display: flex;
     justify-content: space-evenly;
 }
+
+.img-gallery div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.img-gallery p {
+    color: aliceblue;
+    margin-top: 15px;
+}
