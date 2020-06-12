@@ -169,3 +169,11 @@ footer a {
     font-size: 0.8rem;
     width: 125px;
 }
+
+footer a.github {
+    border-color: none;
+    border: none;
+    padding: 0;
+    width: 0;
+    margin-left: 90%;
+}
