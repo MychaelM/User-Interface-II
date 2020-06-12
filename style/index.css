@@ -127,3 +127,12 @@ div.middle {
     margin: 10px 0;
     padding: 5px 10px;
 }
+
+.img-gallery1 {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.img-gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+}
