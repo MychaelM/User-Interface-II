@@ -187,3 +187,32 @@ footer a.github {
     width: 0;
     margin-left: 90%;
 }
+
+/* Media Queries */
+
+@media (max-width:720px){
+    .about-txt {
+        font-size: .8rem;
+        line-height: 1.1rem;
+
+}
+    .about-txt h2 {
+        font-size: .9rem;
+        /* line-height: 1rem; */
+
+}
+    .img-gallery {
+        width: 100%;
+        flex-wrap: wrap;
+}
+    .img-gallery div {
+        width: 50%;
+        max-width: 300px;
+}
+
+}
+
+@media (max-width:520px){
+    
+
+}
