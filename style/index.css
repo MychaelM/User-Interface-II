@@ -95,17 +95,21 @@ nav a {
 
 div.middle {
     width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 960px;
+    margin: 10px auto;
     background-color: #393e46;
     padding: 10px;
 }
 
 #about-me {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     justify-content: space-evenly;
     align-items: center;
+}
+
+img {
+    border: 1px solid aliceblue;
 }
 
 .about-img {
@@ -120,7 +124,7 @@ div.middle {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    /* height: 300px; */
+    line-height: 1.5;
     width:  45%;
 }
 
