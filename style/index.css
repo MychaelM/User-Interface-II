@@ -56,6 +56,7 @@ table {
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 62.5%;
+    background-color: #393e46;
 }
 
 h1 {
@@ -93,14 +94,27 @@ nav a {
 }
 
 div.middle {
+    width: 100%;
+    max-width: 960px;
+    margin: 10px auto;
     background-color: #393e46;
     padding: 10px;
 }
 
 #about-me {
     display: flex;
+    margin-bottom: 2%;
     justify-content: space-evenly;
     align-items: center;
+}
+
+img {
+    border: 1px solid aliceblue;
+}
+
+.about-img {
+    width: 45%;
+    max-width: 350px;
 }
 
 .about-txt {
@@ -110,8 +124,8 @@ div.middle {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 300px;
-    width:  350px;
+    line-height: 1.5;
+    width:  45%;
 }
 
 .about-txt h2 {
@@ -176,4 +190,68 @@ footer a.github {
     padding: 0;
     width: 0;
     margin-left: 90%;
+}
+
+/* Media Queries */
+
+@media (max-width:800px){
+    .about-txt {
+        font-size: .8rem;
+        line-height: 1.1rem;
+
+}
+    .about-txt h2 {
+        font-size: .9rem;
+        /* line-height: 1rem; */
+
+}
+    .img-gallery {
+        width: 100%;
+        flex-wrap: wrap;
+}
+    .img-gallery div {
+        width: 50%;
+        max-width: 300px;
+}
+
+}
+
+@media (max-width:500px){
+    header {
+        align-items: center;
+        height: 100%;
+    }
+
+    header h1 {
+        margin-left: 0;
+        margin: 20px 0;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100px;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #about-me {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-img {
+        width: 80%;
+        height: 250px;
+    }
+
+    .about-txt {
+        width: 80%;
+        align-items: center;
+    }
+
+    .about-txt h2 {
+        font-size: 1.2rem;
+    }
+
 }
